@@ -1,0 +1,180 @@
+[
+    {
+    "recipe_name": "Chocolate Chip Cookies",
+    "notes": "A classic cookie recipe",
+    "ingredients": [
+        {
+            "name": "butter",
+            "amounts": {
+                "amount": "1",
+                "unit": "lb"
+            },
+            "notes": "softened"
+        },
+        {
+            "name": "brown sugar",
+            "amounts": {
+                "amount": "1 1/2",
+                "unit": "cups"
+            }
+        },
+        {
+            "name": "white sugar",
+            "amounts": {
+                "amount": "1",
+                "unit": "cup"
+            }
+        },
+        {
+            "name": "eggs",
+            "amounts": {
+                "amount": "3",
+                "unit": "each"
+            }
+        },
+        {
+            "name": "vanilla",
+            "amounts": {
+                "amount": "2",
+                "unit": "tsp"
+            }
+        },
+        {
+            "name": "baking soda",
+            "amounts": {
+                "amount": "1 1/2",
+                "unit": "tsp"
+            }
+        },
+        {
+            "name": "salt",
+            "amounts": {
+                "amount": "1/2",
+                "unit": "tsp"
+            }
+        },
+        {
+            "name": "flour",
+            "amounts": {
+                "amount": "5",
+                "unit": "cups"
+            },
+            "notes": "we like 3 C white and 2 C whole wheat"
+        },
+        {
+            "name": "semi-sweet chocolate chips",
+            "amounts": {
+                "amount": "2",
+                "unit": "cups"
+            }
+        },
+        {
+            "name": "shredded coconut",
+            "amounts": {
+                "amount": "1-2",
+                "unit": "cups"
+            }
+        }
+    ],
+    "steps": [
+        "Cream the butter and sugar together, then beat in the eggs and vanilla",
+        "Mix in salt, soda and flour",
+        "Add chocolate chips and coconut",
+        "Bake 8-10 minutes at 350 F"
+    ]
+},
+{
+    "recipe_name": "Lemon Poppy Seed Muffins",
+    "notes": "Light, fluffy muffins with a bright lemon flavor and subtle crunch from poppy seeds.",
+    "ingredients": [
+        {
+            "name": "all-purpose flour",
+            "amounts": {
+                "amount": "2",
+                "unit": "cups"
+            }
+        },
+        {
+            "name": "baking powder",
+            "amounts": {
+                "amount": "2",
+                "unit": "tsp"
+            }
+        },
+        {
+            "name": "salt",
+            "amounts": {
+                "amount": "1/2",
+                "unit": "tsp"
+            }
+        },
+        {
+            "name": "poppy seeds",
+            "amounts": {
+                "amount": "1 1/2",
+                "unit": "tbsp"
+            }
+        },
+        {
+            "name": "sugar",
+            "amounts": {
+                "amount": "3/4",
+                "unit": "cup"
+            }
+        },
+        {
+            "name": "butter",
+            "amounts": {
+                "amount": "1/2",
+                "unit": "cup"
+            },
+            "notes": "melted and cooled slightly"
+        },
+        {
+            "name": "eggs",
+            "amounts": {
+                "amount": "2",
+                "unit": "each"
+            }
+        },
+        {
+            "name": "milk",
+            "amounts": {
+                "amount": "3/4",
+                "unit": "cup"
+            }
+        },
+        {
+            "name": "lemon zest",
+            "amounts": {
+                "amount": "1",
+                "unit": "tbsp"
+            },
+            "notes": "from 1 large lemon"
+        },
+        {
+            "name": "lemon juice",
+            "amounts": {
+                "amount": "2",
+                "unit": "tbsp"
+            }
+        },
+        {
+            "name": "vanilla extract",
+            "amounts": {
+                "amount": "1",
+                "unit": "tsp"
+            }
+        }
+    ],
+    "steps": [
+        "Preheat oven to 375°F and line or grease a muffin tin.",
+        "In a large bowl, whisk together flour, baking powder, salt, and poppy seeds.",
+        "In a separate bowl, beat sugar, melted butter, eggs, milk, lemon zest, lemon juice, and vanilla until well combined.",
+        "Pour wet ingredients into dry and stir just until combined—do not overmix.",
+        "Scoop batter evenly into muffin cups.",
+        "Bake for 15–18 minutes, or until a toothpick inserted in the center comes out clean.",
+        "Cool for 5 minutes in the tin, then transfer to a wire rack to cool completely."
+    ]
+}
+]
