@@ -214,9 +214,7 @@ async function getJson(url) {
   const response = await fetch(baseUrl + url, options);
   if (response.ok) {
     data = await response.json();
-  } else {
-    throw new Error("response not ok");
-  } 
+  } else throw new Error("response not ok");
   return data;
 }
 
@@ -230,6 +228,16 @@ export function getInfoLinks(data) {
 }
 
 export async function getParkData() {
-  const parkData = await getJson("parks?parkCode=yell");
+  const parkData = await getJson("parks?parkCode=yell ");
   return parkData.data[0];
+}
+
+export async function getParkAlerts(code) {
+  const parkData = await getJson(`alerts?parkCode=${code}`);
+  return parkData.data;
+}
+
+export async function getParkVisitorCenters(code) {
+  const parkData = await getJson(`visitorcenters?parkCode=${code}`);
+  return parkData.data;
 }

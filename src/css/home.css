@@ -4,7 +4,8 @@
   padding: 1em;
 }
 
-.intro > h1 {
+.intro > h1,
+main > h1 {
   font-family: var(--bs-font-serif);
   font-size: 2em;
   font-weight: normal;

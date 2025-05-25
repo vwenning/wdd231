@@ -22,3 +22,9 @@ a:visited {
 a:hover {
   color: var(--bs-link-hover-color);
 }
+
+details {
+  padding: 1rem;
+  border: 1px solid var(--bs-grey-3);
+  border-radius: 5px;
+}
