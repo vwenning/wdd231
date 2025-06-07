@@ -54,24 +54,58 @@
             </svg>
             <span class="visually-hidden">Search</span>
           </a>
-          <button id="global-nav-toggle">
-            <svg class="icon">
-              <use xlink:href="/images/sprite.symbol.svg#menu"></use>
-            </svg>
-            <span class="visually-hidden">Open</span> Menu
+          <button
+            id="global-nav-toggle"
+            class="global-nav__toggle"
+            aria-expanded="false"
+            aria-label="Open Menu"
+          >
+            <div class="global-nav__toggle--closed">
+              <svg class="icon">
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="/images/sprite.symbol.svg#menu"
+                ></use>
+              </svg>
+              <span class="visually-hidden">Open</span> Menu
+            </div>
+            <div class="global-nav__toggle--open">
+              <svg class="icon">
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="/images/sprite.symbol.svg#close"
+                ></use>
+              </svg>
+              Close
+            </div>
           </button>
         </div>
+        <nav class="global-nav">
+          <h2 class="global-nav__section-heading">Explore this Park</h2>
+          <ul class="global-nav__list">
+            <li>
+              <div class="global-nav__split-button">
+                <a href="#">Plan Your Visit</a>
+                <button class="global-nav__split-button__toggle">
+                  <span class="visually-hidden"
+                    >Toggle submenu for Plan Your Visit</span
+                  >
+                  <svg class="icon" role="presentation" focusable="false">
+                    <use
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xlink:href="/images/sprite.symbol.svg#arrow"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </section>
       <section id="park-header">
         <div class="hero-banner">
           <img src="" alt="" />
-          <div class="hero-banner__content">
-            <!-- <a href="#" class="hero-banner__title">Yellowstone</a>
-            <p class="hero-banner__subtitle">
-              <span>National Park</span>
-              <span>ID, MT, WY</span>
-            </p> -->
-          </div>
+          <div class="hero-banner__content"></div>
         </div>
         <nav class="park-nav">
           <ul>
