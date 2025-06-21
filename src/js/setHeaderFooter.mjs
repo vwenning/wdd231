@@ -1,4 +1,5 @@
 import { parkInfoTemplate, footerTemplate } from "./templates.mjs";
+import enableNavigation from "./navigation.mjs";
 
 function setHeaderInfo(data) {
   // insert data into disclaimer section
@@ -22,4 +23,5 @@ function setFooter(data) {
 export default function setHeaderFooter(parkData) {
   setHeaderInfo(parkData);
   setFooter(parkData);
+  enableNavigation();
 }
